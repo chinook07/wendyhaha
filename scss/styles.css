@@ -1,0 +1,153 @@
+body {
+  font-weight: bold;
+  width: 75%;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+  margin: 15px 0;
+}
+
+nav li {
+  display: inline;
+  padding: 0 3%;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 430px) {
+  nav li {
+    padding: 0 1%;
+  }
+}
+
+#homeLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px 0 30px;
+}
+
+#homeLogo div:first-child {
+  width: 48%;
+}
+
+#homeLogo div:first-child img {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 100%;
+}
+
+#homeLogo div:first-child h1 {
+  text-align: center;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+#homeLogo div:nth-child(2) {
+  width: 4%;
+}
+
+#homeLogo div:last-child {
+  width: 48%;
+}
+
+#homeLogo div:last-child img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1180px) and (min-width: 880px), (max-width: 600px) {
+  #homeLogo h1 {
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  #homeLogo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #homeLogo div:first-child {
+    width: 100%;
+  }
+  #homeLogo div:nth-child(2) {
+    display: none;
+  }
+  #homeLogo div:last-child {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    width: 100%;
+  }
+}
+
+#loveToLaugh {
+  text-align: center;
+  font-family: 'Rockwell Nova Extra Bold', sans-serif;
+}
+
+#loveToLaugh div:first-child {
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+
+#loveToLaugh div:nth-child(2) {
+  text-transform: capitalize;
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+#loveToLaugh div:last-child {
+  font-size: xx-large;
+}
+
+#menopause {
+  margin: 20px auto;
+  display: block;
+  width: 560px;
+  height: 315px;
+}
+
+@media screen and (max-width: 660px) {
+  #menopause {
+    width: 100%;
+    height: auto;
+  }
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  font-size: 18px;
+}
+
+footer a {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 500px) {
+  footer a {
+    padding: 8px 12px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
