@@ -1,13 +1,21 @@
 @import url(//db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans);
 body {
   font-weight: bold;
-  width: 75%;
   margin: 0 auto;
+  background-image: repeating-linear-gradient(
+    to bottom right,
+    #303030,
+    #404040,
+    #a0a0a0
+  );
+  color: white;
 }
 
 nav {
   text-align: center;
-  margin: 15px 0;
+  padding: 10px 0;
+  background-color: black;
+  border-radius: 5px;
 }
 
 nav li {
@@ -17,7 +25,7 @@ nav li {
 
 nav li a {
   text-decoration: none;
-  color: black;
+  color: white;
   text-transform: uppercase;
 }
 
@@ -27,13 +35,28 @@ nav li a {
   }
 }
 
+.topPart {
+  background-color: black;
+}
+.bottomPart {
+  width: 75%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 430px) {
+  .bottomPart {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 #homeLogo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 20px 0 30px;
+  flex-wrap: wrap;
+  margin: 5px auto;
+  width: 75%;
 }
 
 #homeLogo div:first-child {
@@ -48,11 +71,7 @@ nav li a {
 
 #homeLogo div:first-child h1 {
   text-align: center;
-  font-family: 'Gill Sans', sans-serif;
-}
-
-#homeLogo div:nth-child(2) {
-  width: 4%;
+  font-family: "Gill Sans", sans-serif;
 }
 
 #homeLogo div:last-child {
@@ -63,7 +82,8 @@ nav li a {
   width: 100%;
 }
 
-@media screen and (max-width: 1180px) and (min-width: 880px), (max-width: 600px) {
+@media screen and (max-width: 1180px) and (min-width: 880px),
+  (max-width: 600px) {
   #homeLogo h1 {
     font-size: x-large;
   }
@@ -73,26 +93,24 @@ nav li a {
   #homeLogo {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   #homeLogo div:first-child {
     width: 100%;
   }
-  #homeLogo div:nth-child(2) {
-    display: none;
-  }
+
   #homeLogo div:last-child {
     -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
+    -ms-flex-order: -1;
+    order: -1;
     width: 100%;
   }
 }
 
 #loveToLaugh {
   text-align: center;
-  font-family: 'Rockwell Nova Extra Bold', sans-serif;
+  font-family: "Rockwell Nova Extra Bold", sans-serif;
 }
 
 #loveToLaugh div:first-child {
@@ -120,7 +138,6 @@ nav li a {
 @media screen and (max-width: 660px) {
   #menopause {
     width: 100%;
-    height: auto;
   }
 }
 
