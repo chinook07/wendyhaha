@@ -109,19 +109,21 @@ nav li a {
 }
 
 #loveToLaugh {
+  margin-top: 2%;
   text-align: center;
   font-family: "Rockwell Nova Extra Bold", sans-serif;
+  margin-bottom: 3%;
 }
 
 #loveToLaugh div:first-child {
+  margin-top: 2%;
   font-size: xx-large;
-  margin-bottom: 10px;
+  margin-bottom: 2%;
 }
 
 #loveToLaugh div:nth-child(2) {
   text-transform: capitalize;
   font-size: x-large;
-  margin-bottom: 15px;
 }
 
 #loveToLaugh div:last-child {
@@ -175,6 +177,12 @@ footer a {
   font-size: larger;
   line-height: 1.5;
   text-align: justify;
+}
+@media screen and (max-width: 500px) {
+  .aboutPage {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 }
 .aboutPage a:link {
   text-decoration: none;
