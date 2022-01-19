@@ -1,14 +1,14 @@
 @import url(//db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans);
+html {
+  height: 100%;
+}
 body {
   font-weight: bold;
   margin: 0 auto;
-  background-image: repeating-linear-gradient(
-    to bottom right,
-    #303030,
-    #404040,
-    #a0a0a0
-  );
+  background-image: linear-gradient(to bottom right, #303030, #404040, #a0a0a0);
   color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 nav {
@@ -69,7 +69,7 @@ nav li a {
   width: 100%;
 }
 
-#homeLogo div:first-child h1 {
+#homeLogo div:first-child h2 {
   text-align: center;
   font-family: "Gill Sans", sans-serif;
 }
@@ -84,7 +84,7 @@ nav li a {
 
 @media screen and (max-width: 1180px) and (min-width: 880px),
   (max-width: 600px) {
-  #homeLogo h1 {
+  #homeLogo h2 {
     font-size: x-large;
   }
 }
@@ -169,3 +169,41 @@ footer a {
   }
 }
 /*# sourceMappingURL=styles.css.map */
+
+.aboutPage {
+  max-width: 750px;
+  font-size: larger;
+  line-height: 1.5;
+  text-align: justify;
+}
+.aboutPage a:link {
+  text-decoration: none;
+  color: #dd3030;
+}
+.aboutPage a:visited {
+  color: #dd3030;
+}
+.aboutPage a:hover {
+  font-size: xx-large;
+}
+
+.contactPage {
+  max-width: 750px;
+  font-size: large;
+  line-height: 1.5;
+  margin: 50px auto;
+  display: block;
+}
+
+form input {
+  width: 300px;
+}
+
+form textarea {
+  width: 300px;
+}
+
+#sendMe {
+  font-size: larger;
+  color: #dd3030;
+}
