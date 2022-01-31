@@ -221,3 +221,17 @@ form textarea {
   font-size: larger;
   color: #dd3030;
 }
+
+.authorityLogosContainer {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.authorityLogosContainer > div > img {
+  height: 2rem;
+  padding: 0.5rem;
+}
