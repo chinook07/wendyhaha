@@ -223,7 +223,6 @@ form textarea {
 }
 
 .authorityLogosContainer {
-  background-color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
