@@ -235,8 +235,10 @@ form textarea {
 }
 
 .authorityLogosContainer {
+  margin-top: 2%;
   display: flex;
   flex-wrap: wrap;
+  max-width: 990px;
   justify-content: space-around;
   align-items: center;
   padding: 1rem 3rem;
