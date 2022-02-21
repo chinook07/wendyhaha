@@ -3,6 +3,7 @@ html {
   height: 100%;
 }
 body {
+  height: 100%;
   font-weight: bold;
   margin: 0 auto;
   background-image: linear-gradient(to bottom right, #303030, #404040, #a0a0a0);
@@ -119,6 +120,13 @@ nav li a {
   }
 }
 
+#loveToLaugh {
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Rockwell Nova Extra Bold", sans-serif;
+  margin-bottom: 7%;
+}
+
 #loveToLaugh a {
   text-decoration: none;
   color: inherit;
@@ -157,10 +165,12 @@ nav li a {
 }
 
 footer {
+  margin-top: 200px;
+  bottom: 0;
   display: block;
   text-align: center;
   padding-top: 48px;
-  padding-bottom: 48px;
+  padding-bottom: 15px;
   font-size: 18px;
 }
 
@@ -265,7 +275,7 @@ form textarea {
 
 #buyMeTea {
   display: block;
-  margin: 0 auto;
+  margin: 6% auto 0 auto;
 }
 
 #buyMeTea img {
@@ -276,10 +286,16 @@ form textarea {
 }
 
 #credits {
-  margin-top: 25px;
+  margin-top: 45px;
+  bottom: 0;
   font-size: small;
 }
 
 #credits a {
   color: white;
+}
+
+#wendyGuitar {
+  max-width: 100%;
+  width: 500px;
 }
