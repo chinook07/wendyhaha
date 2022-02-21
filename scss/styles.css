@@ -119,11 +119,13 @@ nav li a {
   }
 }
 
-#loveToLaugh {
-  margin-top: 2%;
-  text-align: center;
-  font-family: "Rockwell Nova Extra Bold", sans-serif;
-  margin-bottom: 3%;
+#loveToLaugh a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#loveToLaugh a:hover {
+  color: #dd3030;
 }
 
 #loveToLaugh div:first-child {
@@ -162,7 +164,7 @@ footer {
   font-size: 18px;
 }
 
-footer a {
+footer > a {
   border: none;
   display: inline-block;
   padding: 8px 16px;
@@ -233,4 +235,51 @@ form textarea {
 .authorityLogosContainer > div > img {
   height: 2rem;
   padding: 0.5rem;
+}
+
+.pageLogo {
+  width: 100%;
+  background-color: black;
+  padding: 30px 0;
+}
+
+.pageLogo img {
+  width: 500px;
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+
+#portraitGuitar {
+  height: 350px;
+  margin: 10px auto;
+  float: left;
+  margin-right: 15px;
+}
+
+#zebraImg {
+  width: 60%;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+#buyMeTea {
+  display: block;
+  margin: 0 auto;
+}
+
+#buyMeTea img {
+  margin: 0 auto;
+  width: 210px;
+  display: block;
+  max-width: 100%;
+}
+
+#credits {
+  margin-top: 25px;
+  font-size: small;
+}
+
+#credits a {
+  color: white;
 }
