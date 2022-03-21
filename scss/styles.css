@@ -151,15 +151,15 @@ nav li a {
   font-size: xx-large;
 }
 
-#menopause {
-  margin: 20px auto;
+#youtubeIframe {
+  margin: 20px auto 50px;
   display: block;
   width: 560px;
   height: 315px;
 }
 
 @media screen and (max-width: 660px) {
-  #menopause {
+  #youtubeIframe {
     width: 100%;
   }
 }
@@ -235,7 +235,7 @@ form textarea {
 }
 
 .authorityLogosContainer {
-  margin-top: 2%;
+  margin: 2% auto 0;
   display: flex;
   flex-wrap: wrap;
   max-width: 990px;
@@ -300,4 +300,48 @@ form textarea {
 #wendyGuitar {
   max-width: 100%;
   width: 500px;
+}
+
+#christianEvents {
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Rockwell Nova Extra Bold", sans-serif;
+  margin-bottom: 7%;
+}
+
+#christianEvents a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#christianEvents a:hover {
+  color: #dd3030;
+}
+
+#christianEvents div:first-child {
+  margin-top: 2%;
+  font-size: xx-large;
+}
+
+#christianEvents div:nth-child(2),
+#christianEvents div:nth-child(3) {
+  margin-top: 2%;
+  text-transform: capitalize;
+  font-size: x-large;
+}
+
+#endorsements {
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Rockwell Nova Extra Bold", sans-serif;
+  font-size: large;
+}
+
+#endorsements a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#endorsements a:hover {
+  color: #dd3030;
 }
