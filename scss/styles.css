@@ -1,154 +1,9 @@
-@import url(//db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans);
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
-  font-weight: bold;
-  margin: 0 auto;
-  background-image: linear-gradient(to bottom right, #303030, #404040, #a0a0a0);
-  color: white;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-nav {
-  text-align: center;
-  padding: 10px 0;
-  background-color: black;
-  border-radius: 5px;
-}
-
-nav li {
-  display: inline;
-  padding: 0 3%;
-}
-
-nav li a {
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-}
-
-@media screen and (max-width: 430px) {
-  nav li {
-    padding: 0 1%;
-  }
-}
+/************************************/
+/**** INDEX ****/
+/************************************/
 
 .topPart {
   background-color: black;
-}
-.bottomPart {
-  width: 75%;
-  margin: 0 auto;
-}
-@media screen and (max-width: 430px) {
-  .bottomPart {
-    width: 75%;
-    margin: 0 auto;
-  }
-}
-
-.bottomPartHome {
-  width: 75%;
-  margin: 0 auto;
-}
-@media screen and (max-width: 430px) {
-  .bottomPartHome {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-
-#homeLogo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: 5px auto;
-  width: 75%;
-}
-
-#homeLogo div:first-child {
-  width: 48%;
-}
-
-#homeLogo div:first-child img {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  width: 100%;
-}
-
-#homeLogo div:first-child h2 {
-  text-align: center;
-  font-family: "Gill Sans", sans-serif;
-}
-
-#homeLogo div:last-child {
-  width: 48%;
-}
-
-#homeLogo div:last-child img {
-  width: 100%;
-}
-
-@media screen and (max-width: 1180px) and (min-width: 880px),
-  (max-width: 600px) {
-  #homeLogo h2 {
-    font-size: x-large;
-  }
-}
-
-@media screen and (max-width: 880px) {
-  #homeLogo {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  #homeLogo div:first-child {
-    width: 100%;
-  }
-
-  #homeLogo div:last-child {
-    -webkit-box-ordinal-group: 0;
-    -ms-flex-order: -1;
-    order: -1;
-    width: 100%;
-  }
-}
-
-#loveToLaugh {
-  margin-top: 5%;
-  text-align: center;
-  font-family: "Rockwell Nova Extra Bold", sans-serif;
-  margin-bottom: 7%;
-}
-
-#loveToLaugh a {
-  text-decoration: none;
-  color: inherit;
-}
-
-#loveToLaugh a:hover {
-  color: #dd3030;
-}
-
-#loveToLaugh div:first-child {
-  margin-top: 2%;
-  font-size: xx-large;
-  margin-bottom: 2%;
-}
-
-#loveToLaugh div:nth-child(2) {
-  text-transform: capitalize;
-  font-size: x-large;
-}
-
-#loveToLaugh div:last-child {
-  font-size: xx-large;
 }
 
 #youtubeIframe {
@@ -164,36 +19,10 @@ nav li a {
   }
 }
 
-footer {
-  margin-top: 200px;
-  bottom: 0;
-  display: block;
-  text-align: center;
-  padding-top: 48px;
-  padding-bottom: 15px;
-  font-size: 18px;
-}
+/************************************/
+/**** ABOUT PAGE ****/
+/************************************/
 
-footer > a {
-  border: none;
-  display: inline-block;
-  padding: 8px 16px;
-  vertical-align: middle;
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  background-color: inherit;
-  text-align: center;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-@media screen and (max-width: 500px) {
-  footer a {
-    padding: 8px 12px;
-  }
-}
-/*# sourceMappingURL=styles.css.map */
 
 .aboutPage {
   max-width: 750px;
@@ -212,6 +41,10 @@ footer > a {
 .aboutPage a:hover {
   font-size: xx-large;
 }
+
+/************************************/
+/**** CONTACT PAGE ****/
+/************************************/
 
 .contactPage {
   max-width: 750px;
@@ -234,114 +67,3 @@ form textarea {
   color: #dd3030;
 }
 
-.authorityLogosContainer {
-  margin: 2% auto 0;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 990px;
-  justify-content: space-around;
-  align-items: center;
-  padding: 1rem 3rem;
-}
-
-.authorityLogosContainer > div > img {
-  height: 2rem;
-  padding: 0.5rem;
-}
-
-.pageLogo {
-  width: 100%;
-  background-color: black;
-  padding: 30px 0;
-}
-
-.pageLogo img {
-  width: 500px;
-  max-width: 80%;
-  display: block;
-  margin: auto;
-}
-
-#portraitGuitar {
-  height: 350px;
-  margin: 10px auto;
-  float: left;
-  margin-right: 15px;
-}
-
-#zebraImg {
-  width: 60%;
-  margin: 0 auto 15px;
-  display: block;
-}
-
-#buyMeTea {
-  display: block;
-  margin: 6% auto 0 auto;
-}
-
-#buyMeTea img {
-  margin: 0 auto;
-  width: 210px;
-  display: block;
-  max-width: 100%;
-}
-
-#credits {
-  margin-top: 45px;
-  bottom: 0;
-  font-size: small;
-}
-
-#credits a {
-  color: white;
-}
-
-#wendyGuitar {
-  max-width: 100%;
-  width: 500px;
-}
-
-#christianEvents {
-  margin-top: 5%;
-  text-align: center;
-  font-family: "Rockwell Nova Extra Bold", sans-serif;
-  margin-bottom: 7%;
-}
-
-#christianEvents a {
-  text-decoration: none;
-  color: inherit;
-}
-
-#christianEvents a:hover {
-  color: #dd3030;
-}
-
-#christianEvents div:first-child {
-  margin-top: 2%;
-  font-size: xx-large;
-}
-
-#christianEvents div:nth-child(2),
-#christianEvents div:nth-child(3) {
-  margin-top: 2%;
-  text-transform: capitalize;
-  font-size: x-large;
-}
-
-#endorsements {
-  margin-top: 5%;
-  text-align: center;
-  font-family: "Rockwell Nova Extra Bold", sans-serif;
-  font-size: large;
-}
-
-#endorsements a {
-  text-decoration: none;
-  color: inherit;
-}
-
-#endorsements a:hover {
-  color: #dd3030;
-}
