@@ -23,7 +23,6 @@
 /**** ABOUT PAGE ****/
 /************************************/
 
-
 .aboutPage {
   max-width: 750px;
   font-size: larger;
@@ -67,3 +66,17 @@ form textarea {
   color: #dd3030;
 }
 
+/************************************/
+/**** EVENT PAGE ****/
+/************************************/
+
+.tourEvent {
+  background-color: #444;
+  border: 1px solid whitesmoke;
+  padding: 15px;
+  border-radius: 15px;
+}
+.tourEvent a {
+  text-decoration: none;
+  color: #dd3030;
+}
