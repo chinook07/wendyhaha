@@ -1,0 +1,116 @@
+@import url(//db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans);
+
+/************************************/
+/**** BODY ****/
+/************************************/
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-weight: bold;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom right, #303030, #404040, #a0a0a0);
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/************************************/
+/**** NAVIGATION BAR ****/
+/************************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  background-color: black;
+  border-radius: 5px;
+}
+
+nav li {
+  display: inline;
+  padding: 0 3%;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 430px) {
+  nav li {
+    padding: 0 1%;
+  }
+}
+
+/************************************/
+/**** MAIN CONTENT MOST PAGES ****/
+/************************************/
+
+.mainContent {
+  width: 75%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 430px) {
+  .mainContent {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+.mainContentHome {
+  width: 75%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 430px) {
+  .mainContentHome {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/************************************/
+/**** FOOTER ****/
+/************************************/
+
+footer {
+  margin-top: 200px;
+  bottom: 0;
+  display: block;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
+footer > a {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 500px) {
+  footer a {
+    padding: 8px 12px;
+  }
+}
+
+#credits {
+  margin-top: 45px;
+  bottom: 0;
+  font-size: small;
+}
+
+#credits a {
+  color: white;
+}

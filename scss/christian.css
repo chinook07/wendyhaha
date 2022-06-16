@@ -1,0 +1,99 @@
+/************************************/
+/**** BIO ****/
+/************************************/
+
+#endorsements {
+    margin-top: 5%;
+    text-align: center;
+    font-family: "Rockwell Nova Extra Bold", sans-serif;
+    font-size: large;
+  }
+  
+  #endorsements a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #endorsements a:hover {
+    color: #dd3030;
+  }
+ 
+/************************************/
+/**** EVENTS ****/
+/************************************/
+
+#christianEvents {
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Rockwell Nova Extra Bold", sans-serif;
+  margin-bottom: 7%;
+}
+
+#christianEvents a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#christianEvents a:hover {
+  color: #dd3030;
+}
+
+#christianEvents div:first-child {
+  margin-top: 2%;
+  font-size: xx-large;
+}
+
+#christianEvents div:nth-child(2),
+#christianEvents div:nth-child(3) {
+  margin-top: 2%;
+  text-transform: capitalize;
+  font-size: x-large;
+}
+
+/*********************/
+/*ENDORSEMENTS*/
+/*********************/
+
+h1 {
+  margin-top: 75px;
+  font-style: italic;
+}
+
+.accordion {
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+.active,
+.accordion:hover {
+  background-color: rgb(66, 34, 34);
+}
+
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: rgb(100, 100, 100);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
